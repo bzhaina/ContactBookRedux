@@ -1,0 +1,39 @@
+.addForm{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addInp{
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 7px;
+}
+
+.mainButtons{
+    margin-top: 10px;
+}
+
+.myBtn{
+    margin-left: 7px;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+
+.myBtn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
